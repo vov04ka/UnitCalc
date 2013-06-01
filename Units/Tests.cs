@@ -20,6 +20,9 @@ namespace Units
             Assert.IsFalse(u.IsSimple);
         }
 
+        /// <summary>
+        /// Tests the Inverse() implementation
+        /// </summary>
         [TestMethod()]
         public void CheckInverse()
         {
